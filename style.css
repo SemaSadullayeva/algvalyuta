@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.navbar{
+    background-color: #eff1f3;
+}
+.img {
+    padding: 20px ;
+}
+ul{
+    display: flex;
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+
+li {
+padding: 20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+color: #959BA4;
+}
+.active{
+    color: #000000;
+    
+    }
+.intro_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.voyti{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+.button{
+   display: inline-block;
+   width: 72px;
+   height: 43px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   text-align: center;
+   line-height: 43px;
+   letter-spacing: 0.06em;
+   color: #000000;
+   cursor: pointer;
+   background-color: white;
+   border: 1px solid white ;
+   border-radius: 10px;
+}
+
+  .container {
+    max-width: 1140px;
+  }
+   .intro-header{
+       width: 100%;
+       margin-top: 5%;
+      
+   }
+
+.intro_text{
+width: 587px;
+height: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+margin-top: 5%;
+color: #000000;
+}
+#from p,
+#to p{
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 14px;
+display: flex;
+align-items: center;
+color: #9F9F9F;
+margin-top: 40px;
+
+}
+
+#from{
+    padding-left: 0;
+    
+}
+#to{
+    padding-left: 0;
+}
+#intro{
+margin-left: 20%;
+}
+  #from .activefrom,
+#to .activeto{
+    background-color:#833AE0;
+    color: white;
+    border: none;
+}  
+
+
+#from li,
+#to li{
+    font-size: 15px;
+    color: #C6C6C6;    
+}
+.list-from, .list-to{
+    border: 1px solid #C6C6C6;
+    height: 30px;
+    margin-bottom:20px ;
+    margin-top: 10px;
+}
+
+#from .money_text_from,
+#to .money_text_to{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #C6C6C6;
+
+}
+ul li{
+    cursor: pointer;
+}
+.fromInp,
+.toInp{
+
+font-size: 30px;
+font-weight: bold;
+border: none;
+outline: none;
+    
+}
+.block_body{
+width: 100%; 
+box-sizing: border-box;
+width: 259px;
+height: 102px;
+border: 1px solid #E5E5E5;
+border-radius: 3px;
+padding: 7px;
+}
+.block1{
+    display: flex;
+}
+.intro_from{
+    margin-right:20%;
+}
