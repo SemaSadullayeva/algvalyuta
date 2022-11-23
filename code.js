@@ -45,7 +45,7 @@ function Convert(){
 
   })
   .catch((error)=>{
-    console.log(error)
+    alert(error.message)
   })
   }
 
@@ -64,7 +64,7 @@ function Convert(){
           moneyTextFrom.innerText=`1 ${fromValue}=${1/data.rates[fromValue]} ${toValue}`
     })
     .catch((error)=>{
-      console.log(error)
+      alert(error.message)
     })
     }
   }
